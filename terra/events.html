@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terra Tribe Fashion — Events</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- HEADER / NAV -->
+<header>
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-name">Terra Tribe</span>
+      <span class="brand-tag">Fashion House</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="trustees.html">Trustees</a></li>
+        <li><a href="inquiries.html">Inquiries</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- MARQUEE -->
+<div class="marquee-bar">
+  <marquee behavior="scroll" direction="left" scrollamount="5">
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;EKO LUXE SEASON PREVIEW - TUESDAY, APRIL 21, 2026 - VICTORIA ISLAND, LAGOS
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LAGOS RUNWAY SHOWCASE NIGHT - FRIDAY, MAY 15, 2026 - IKOYI, LAGOS
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;ABUJA COUTURE BRUNCH - SATURDAY, SEPTEMBER 12, 2026 - MAITAMA ABUJA
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;YEAR END GALA &amp; AWARDS - SATURDAY, DECEMBER 5, 2026 - CBD, ABUJA
+  </marquee>
+</div>
+
+<!-- MAIN CONTENT -->
+<main>
+<section class="page-hero">
+  <h1>Upcoming Events</h1>
+  <p>Unmissable occasions across Lagos and Abuja in 2026</p>
+</section>
+
+  <section class="spacer">
+    <div class="container">
+
+      <!-- CITY FILTER BUTTONS -->
+      <div class="filter-wrap">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="lagos">Lagos</button>
+        <button class="filter-btn" data-filter="abuja">Abuja</button>
+      </div>
+
+      <!-- Events list -->
+      <div class="events-list">
+
+        <div class="event-card" data-city="lagos">
+          <div class="event-date">
+            <div class="day">21</div>
+            <div class="month">April</div>
+            <div class="year">2026</div>
+          </div>
+          <div class="event-info">
+            <h3>Eko Luxe Season Preview</h3>
+            <p>Victoria Island, Lagos, Nigeria &nbsp;·&nbsp; Tuesday, 21 April 2026</p>
+            <p class="event-desc">
+              Our season-opening showcase presenting the finest pieces from the new Terra Tribe collection.
+              Invite-only cocktail evening with live styling demonstrations.
+            </p>
+          </div>
+        </div>
+
+        <div class="event-card" data-city="lagos">
+          <div class="event-date">
+            <div class="day">15</div>
+            <div class="month">May</div>
+            <div class="year">2026</div>
+          </div>
+          <div class="event-info">
+            <h3>Lagos Runway Showcase Night</h3>
+            <p>Ikoyi, Lagos, Nigeria &nbsp;·&nbsp; Friday, 15 May 2026</p>
+            <p class="event-desc">
+              A full runway experience under the Lagos night sky. Featuring all six signature pieces and
+              a special debut of the next season's teaser looks.
+            </p>
+          </div>
+        </div>
+
+        <div class="event-card" data-city="abuja">
+          <div class="event-date">
+            <div class="day">12</div>
+            <div class="month">Sep</div>
+            <div class="year">2026</div>
+          </div>
+          <div class="event-info">
+            <h3>Abuja Couture Brunch</h3>
+            <p>Maitama, Abuja, Nigeria &nbsp;·&nbsp; Saturday, 12 September 2026</p>
+            <p class="event-desc">
+              An intimate mid-morning brunch for our most valued clients, featuring exclusive previews
+              and one-on-one consultations with our design team in Abuja.
+            </p>
+          </div>
+        </div>
+
+        <div class="event-card" data-city="abuja">
+          <div class="event-date">
+            <div class="day">05</div>
+            <div class="month">Dec</div>
+            <div class="year">2026</div>
+          </div>
+          <div class="event-info">
+            <h3>Year End Gala &amp; Awards</h3>
+            <p>Central Business District, Abuja, Nigeria &nbsp;·&nbsp; Saturday, 5 December 2026</p>
+            <p class="event-desc">
+              Our annual year-end celebration honoring the finest contributors to Nigerian fashion culture.
+              Black-tie event with live music, awards, and a grand collection display.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-bottom">
+      <span>&copy; 2026 Terra Tribe Fashion. All rights reserved.</span>
+      <span>Lagos &amp; Abuja, Nigeria</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/events.js"></script>
+</body>
+</html>

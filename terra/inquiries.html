@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terra Tribe Fashion — Inquiries &amp; Appointments</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- HEADER / NAV -->
+<header>
+  <div class="container nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-name">Terra Tribe</span>
+      <span class="brand-tag">Fashion House</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="trustees.html">Trustees</a></li>
+        <li><a href="inquiries.html" class="active">Inquiries</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- MARQUEE -->
+<div class="marquee-bar">
+  <marquee behavior="scroll" direction="left" scrollamount="5">
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;EKO LUXE SEASON PREVIEW - TUESDAY, APRIL 21, 2026 - VICTORIA ISLAND, LAGOS
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;LAGOS RUNWAY SHOWCASE NIGHT - FRIDAY, MAY 15, 2026 - IKOYI, LAGOS
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;ABUJA COUTURE BRUNCH - SATURDAY, SEPTEMBER 12, 2026 - MAITAMA ABUJA
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;YEAR END GALA &amp; AWARDS - SATURDAY, DECEMBER 5, 2026 - CBD, ABUJA
+  </marquee>
+</div>
+
+<!-- MAIN CONTENT -->
+<main>
+<section class="page-hero">
+  <h1>Inquiries &amp; Appointments</h1>
+  <p>Reach us in Lagos or Abuja — we'd love to hear from you</p>
+</section>
+
+  <!-- INQUIRY FORM -->
+  <section class="form-section">
+    <div class="container">
+      <div class="form-card">
+        <h2 class="form-title">Send an Inquiry</h2>
+        <form id="inquiry-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="inq-name">Full Name <span class="required-star">*</span></label>
+              <input type="text" id="inq-name" name="name" placeholder="Your full name" />
+              <span class="field-error" id="err-inq-name">Please enter your full name.</span>
+            </div>
+            <div class="form-group">
+              <label for="inq-email">Email Address <span class="required-star">*</span></label>
+              <input type="email" id="inq-email" name="email" placeholder="you@example.com" />
+              <span class="field-error" id="err-inq-email">Please enter a valid email address.</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inq-message">Message <span class="required-star">*</span></label>
+            <textarea id="inq-message" name="message" placeholder="Tell us how we can help…"></textarea>
+            <span class="field-error" id="err-inq-message">Please enter a message.</span>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Inquiry</button>
+          <div class="success-msg" id="inq-success">Thank you! Your inquiry has been received. We'll be in touch within 24 hours.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPOINTMENT FORM -->
+  <section class="form-section form-section-flush">
+    <div class="container">
+      <div class="form-card">
+        <h2 class="form-title">Book an Appointment</h2>
+        <form id="appt-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="appt-name">Full Name <span class="required-star">*</span></label>
+              <input type="text" id="appt-name" name="name" placeholder="Your full name" />
+              <span class="field-error" id="err-appt-name">Please enter your full name.</span>
+            </div>
+            <div class="form-group">
+              <label for="appt-email">Email Address <span class="required-star">*</span></label>
+              <input type="email" id="appt-email" name="email" placeholder="you@example.com" />
+              <span class="field-error" id="err-appt-email">Please enter a valid email address.</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="appt-phone">Phone Number <span class="required-star">*</span></label>
+              <input type="tel" id="appt-phone" name="phone" placeholder="+234 800 000 0000" />
+              <span class="field-error" id="err-appt-phone">Please enter a valid phone number (at least 10 digits).</span>
+            </div>
+            <div class="form-group">
+              <label for="appt-city">Preferred City <span class="required-star">*</span></label>
+              <select id="appt-city" name="city">
+                <option value="">— Select a city —</option>
+                <option value="lagos">Lagos</option>
+                <option value="abuja">Abuja</option>
+              </select>
+              <span class="field-error" id="err-appt-city">Please select a city.</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="appt-date">Preferred Date <span class="required-star">*</span></label>
+              <input type="date" id="appt-date" name="date" />
+              <span class="field-error" id="err-appt-date">Please select a date.</span>
+            </div>
+            <div class="form-group">
+              <label for="appt-time">Time Slot <span class="required-star">*</span></label>
+              <select id="appt-time" name="time">
+                <option value="">— Select time slot —</option>
+                <option value="09:00 AM">09:00 AM</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="12:00 PM">12:00 PM</option>
+                <option value="02:00 PM">02:00 PM</option>
+                <option value="03:00 PM">03:00 PM</option>
+                <option value="04:00 PM">04:00 PM</option>
+                <option value="05:00 PM">05:00 PM</option>
+              </select>
+              <span class="field-error" id="err-appt-time">Please select a time slot.</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="appt-message">Additional Notes</label>
+            <textarea id="appt-message" name="message" placeholder="Any specific requests or information…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Book Appointment</button>
+          <div class="success-msg" id="appt-success">Appointment booked! We'll confirm your slot via email within 2 hours.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-bottom">
+      <span>&copy; 2026 Terra Tribe Fashion. All rights reserved.</span>
+      <span>Lagos &amp; Abuja, Nigeria</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/inquiries.js"></script>
+</body>
+</html>
